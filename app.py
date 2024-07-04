@@ -4,6 +4,7 @@ import nltk
 from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
+nltk.download('wordnet')
 ps = PorterStemmer()
 
 tfdif = pickle.load(open('verctorizer.pkl', 'rb'))
