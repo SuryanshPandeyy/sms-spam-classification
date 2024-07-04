@@ -6,6 +6,7 @@ import string
 from nltk.stem.porter import PorterStemmer
 nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('stopwords')
 ps = PorterStemmer()
 
 tfdif = pickle.load(open('verctorizer.pkl', 'rb'))
